@@ -20,5 +20,5 @@ jobs:
 
     - uses:  actions/setup-python@v4
     - with:
-        r-version: '3.10'
+        python-version: '3.10'
     - run: python my_script.py
